@@ -1,0 +1,549 @@
+TiRSS
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml/HTMLparser.h
+c000000004A0BACAF0000000000002401
+t1242279087
+s9217
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+c000000004ABDBB6A00000000000035EC
+t1253948266
+s13804
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004ABDBB690000000000001A78
+t1253948265
+s6776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004ABDBB7700000000000D7460
+t1253948279
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/Availability.h
+c000000004ABDC79900000000000019F9
+t1253951385
+s6649
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/arpa/inet.h
+c000000004ABDAF5B0000000000001533
+t1253945179
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/ifaddrs.h
+c000000004ABDAF660000000000000782
+t1253945190
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netdb.h
+c000000004ABDAF8C0000000000003057
+t1253945228
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet/in.h
+c000000004ABDB473000000000000535B
+t1253946483
+s21339
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet6/in6.h
+c000000004ABDB4740000000000004F5B
+t1253946484
+s20315
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sys/socket.h
+c000000004ABDB4790000000000005660
+t1253946489
+s22112
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/Atom.h
+c000000004B55C3D70000000000000492
+t1263911895
+s1170
+i<Foundation/Foundation.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/Atom.m
+c000000004B55C3D7000000000000028B
+t1263911895
+s651
+i"Atom.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/ConfigurationController.h
+c000000004B55C3D700000000000002AF
+t1263911895
+s687
+i<UIKit/UIKit.h>
+i"iRSSAppDelegate.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/ConfigurationController.m
+c000000004B55C3D70000000000000844
+t1263911895
+s2116
+i"ConfigurationController.h"
+i"iRSSAppDelegate.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/ConfigurationController.xib
+c000000004B55C3D70000000000006C8F
+t1263911895
+s27791
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/DetailViewController.h
+c000000004B55C3D70000000000000341
+t1263911895
+s833
+i<UIKit/UIKit.h>
+i"iRSSAppDelegate.h"
+i"WebViewController.h"
+i"RSS.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/DetailViewController.m
+c000000004B55C3D70000000000000C02
+t1263911895
+s3074
+i"DetailViewController.h"
+i"iRSSAppDelegate.h"
+i<libxml/HTMLparser.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/FeedViewController.h
+c000000004B55C3D70000000000000217
+t1263911895
+s535
+i<UIKit/UIKit.h>
+i"Atom.h"
+i"DetailViewController.h"
+i"Reachability.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/FeedViewController.m
+c000000004B55C3D7000000000000113E
+t1263911895
+s4414
+i"FeedViewController.h"
+i"iRSSAppDelegate.h"
+i"Atom.h"
+i"RSS.h"
+i"DetailViewController.h"
+i"XMLParser.h"
+i"Reachability.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/RSS.h
+c000000004B55C3D700000000000005BA
+t1263911895
+s1466
+i<Foundation/Foundation.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/RSS.m
+c000000004B55C3D700000000000002FA
+t1263911895
+s762
+i"RSS.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/Reachability.h
+c000000004B55C3D700000000000013B4
+t1263911895
+s5044
+i<UIKit/UIKit.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/Reachability.m
+c000000004B55C3D70000000000005B34
+t1263911895
+s23348
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i"Reachability.h"
+i<SystemConfiguration/SCNetworkReachability.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/RootViewController.h
+c000000004B55C3D700000000000002EC
+t1263911895
+s748
+i<UIKit/UIKit.h>
+i"Atom.h"
+i"DetailViewController.h"
+i"ConfigurationController.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/RootViewController.m
+c000000004B55C3D700000000000023F1
+t1263911895
+s9201
+i"RootViewController.h"
+i"iRSSAppDelegate.h"
+i"Atom.h"
+i"RSS.h"
+i"DetailViewController.h"
+i"XMLParser.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/WebViewController.h
+c000000004B55C3D70000000000000195
+t1263911895
+s405
+i<UIKit/UIKit.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/WebViewController.m
+c000000004B55C3D7000000000000066D
+t1263911895
+s1645
+i"WebViewController.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/XMLParser.h
+c000000004B55C3D700000000000002D8
+t1263911895
+s728
+i<UIKit/UIKit.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/XMLParser.m
+c000000004B55C3D70000000000001771
+t1263911895
+s6001
+i"XMLParser.h"
+i"iRSSAppDelegate.h"
+i"Atom.h"
+i"RSS.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/iRSSAppDelegate.h
+c000000004B55C3D700000000000004C1
+t1263911895
+s1217
+i"Reachability.h"
+i"ConfigurationController.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/iRSSAppDelegate.m
+c000000004B55C3D70000000000000731
+t1263911895
+s1841
+i"iRSSAppDelegate.h"
+i"RootViewController.h"
+i"XMLParser.h"
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/DetailViewController.xib
+c000000004B55C3D80000000000001D26
+t1263911896
+s7462
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/MainWindow.xib
+c000000004B55C3D80000000000002CF8
+t1263911896
+s11512
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/MallocLogoSolo.png
+c000000004B55C3D80000000000000CAC
+t1263911896
+s3244
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/RSS.xml
+c000000004B55C3D80000000000000990
+t1263911896
+s2448
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/RootViewController.xib
+c000000004B55C3D80000000000001C90
+t1263911896
+s7312
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/WebView.xib
+c000000004B55C3D80000000000001FE0
+t1263911896
+s8160
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/atom.xml
+c000000004B55C3D800000000000002AB
+t1263911896
+s683
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app.dSYM
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/ConfigurationController.nib
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/DetailViewController.nib
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/Info.plist
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/MainWindow.nib
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/MallocLogoSolo.png
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/PkgInfo
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/RSS.xml
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/RootViewController.nib
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/WebView.nib
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/atom.xml
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/iRSS
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/iRSS.png
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/rsslogo.png
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/simpleFeed_Small.png
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/Atom.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/ConfigurationController.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/DetailViewController.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/FeedViewController.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/RSS.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/Reachability.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/WebViewController.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/XMLParser.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/iRSS.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/iRSSAppDelegate.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/iRSS.png
+c000000004B55C3D80000000000001CE7
+t1263911896
+s7399
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/iRSS_Prefix.pch
+c000000004B55C3D8000000000000013A
+t1263911896
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/main.m
+c000000004B55C3D80000000000000173
+t1263911896
+s371
+i<UIKit/UIKit.h>
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/rsslogo.png
+c000000004B55C3D800000000000042EC
+t1263911896
+s17132
+
+N/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/simpleFeed_Small.png
+c000000004B55C3D80000000000001757
+t1263911896
+s5975
+
+N/Users/Oso/Library/MobileDevice/Provisioning Profiles/4BBBA81A-3A0A-4556-B201-86B3807BD08D.mobileprovision
+c000000004B54F9A50000000000001B81
+t1263860133
+s7041
+
+N/var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-gkfrdrsxwhaumdetdaehnckfcunu/iRSS_Prefix.pch.gch
+t2
+s0
+
+NiRSS-Info.plist
+c000000004B55C3D8000000000000039C
+t1263911896
+s924
+
+CCodeSign "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app"
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/Atom.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/Atom.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/ConfigurationController.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/ConfigurationController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/DetailViewController.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/DetailViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/FeedViewController.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/FeedViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/RSS.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/RSS.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/Reachability.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/Reachability.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/RootViewController.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/WebViewController.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/WebViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/XMLParser.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/XMLParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/iRSSAppDelegate.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/iRSSAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRSS.build/Release-iphoneos/iRSS.build/Objects-normal/armv6/main.o "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/Classes/ConfigurationController.xib"
+r0
+
+CCompileXIB "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/DetailViewController.xib"
+r0
+
+CCompileXIB "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/RootViewController.xib"
+r0
+
+CCompileXIB "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/WebView.xib"
+r0
+
+CCopyPNGFile "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/MallocLogoSolo.png" MallocLogoSolo.png
+r0
+
+CCopyPNGFile "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/iRSS.png" iRSS.png
+r0
+
+CCopyPNGFile "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/rsslogo.png" rsslogo.png
+r0
+
+CCopyPNGFile "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/simpleFeed_Small.png" simpleFeed_Small.png
+r0
+
+CCpResource build/Release-iphoneos/iRSS.app/RSS.xml RSS.xml
+r0
+
+CCpResource build/Release-iphoneos/iRSS.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Release-iphoneos/iRSS.app/atom.xml atom.xml
+r0
+
+CGenerateDSYMFile "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app.dSYM" "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/iRSS"
+r0
+
+CLd "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/iRSS" normal armv6
+r0
+
+CProcessInfoPlistFile "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/Info.plist" iRSS-Info.plist
+r0
+
+CProcessPCH /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-gkfrdrsxwhaumdetdaehnckfcunu/iRSS_Prefix.pch.gch iRSS_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/Oso/Library/MobileDevice/Provisioning Profiles/4BBBA81A-3A0A-4556-B201-86B3807BD08D.mobileprovision" "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/iRSS.build/Release-iphoneos/iRSS.build/iRSS.xcent"
+r0
+
+CTouch "/Users/Oso/Desktop/SVN Fix/iRSS/iRSS/build/Release-iphoneos/iRSS.app"
+r0
+

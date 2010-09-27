@@ -1,0 +1,658 @@
+TiRSS
+v7
+r0
+t277589181.118383
+cCheck dependencies
+cProcessInfoPlistFile /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/Info.plist iRSS-Info.plist
+cCompileXIB /Users/Oso/Documents/Cocoa/iRSS/iRSS/MainWindow.xib
+cCompileXIB /Users/Oso/Documents/Cocoa/iRSS/iRSS/RootViewController.xib
+cCpResource build/Debug-iphonesimulator/iRSS.app/atom.xml atom.xml
+cCpResource build/Debug-iphonesimulator/iRSS.app/RSS.xml RSS.xml
+cCompileXIB /Users/Oso/Documents/Cocoa/iRSS/iRSS/DetailViewController.xib
+cCpResource build/Debug-iphonesimulator/iRSS.app/iRSS.png iRSS.png
+cProcessPCH /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch.gch iRSS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileXIB /Users/Oso/Documents/Cocoa/iRSS/iRSS/WebView.xib
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/main.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/iRSSAppDelegate.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/iRSSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RootViewController.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/XMLParser.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Atom.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Atom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RSS.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RSS.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/DetailViewController.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Reachability.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/FeedViewController.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/WebViewController.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/WebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS normal i386
+cGenerateDSYMFile /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app.dSYM /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS
+cTouch /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml/HTMLparser.h
+c000000004A0BACAF0000000000002401
+t1242279087
+s9217
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004ADB608E00000000000000EE
+t1255891086
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+c000000004ABDC80200000000000035EC
+t1253951490
+s13804
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004ABDC8010000000000001A78
+t1253951489
+s6776
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004ABDC8080000000000055360
+t1253951496
+s349024
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
+c000000004ABDCA4700000000000019F9
+t1253952071
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/arpa/inet.h
+c00000000464386D70000000000001533
+t1178830551
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/ifaddrs.h
+c00000000464386E00000000000000782
+t1178830560
+s1922
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/netdb.h
+c00000000464386E20000000000002F2B
+t1178830562
+s12075
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/netinet6/in6.h
+c00000000476344BA0000000000004970
+t1197687994
+s18800
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Atom.h
+c000000004ADB72BD000000000000047C
+t1255895741
+s1148
+i<Foundation/Foundation.h>
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Atom.m
+c000000004ADB72BD0000000000000275
+t1255895741
+s629
+i"Atom.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/DetailViewController.h
+c000000004ADB72BD000000000000032B
+t1255895741
+s811
+i<UIKit/UIKit.h>
+i"iRSSAppDelegate.h"
+i"WebViewController.h"
+i"RSS.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/DetailViewController.m
+c000000004ADB72BD0000000000000BD4
+t1255895741
+s3028
+i"DetailViewController.h"
+i"iRSSAppDelegate.h"
+i<libxml/HTMLparser.h>
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.h
+c000000004ADB72BD0000000000000174
+t1255895741
+s372
+i<UIKit/UIKit.h>
+i"Atom.h"
+i"DetailViewController.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m
+c000000004ADB72BD00000000000010CD
+t1255895741
+s4301
+i"FeedViewController.h"
+i"iRSSAppDelegate.h"
+i"Atom.h"
+i"RSS.h"
+i"DetailViewController.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RSS.h
+c000000004ADB72BD00000000000005A4
+t1255895741
+s1444
+i<Foundation/Foundation.h>
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RSS.m
+c000000004ADB72BD00000000000002E4
+t1255895741
+s740
+i"RSS.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Reachability.h
+c000000004A4037C500000000000013B4
+t1245722565
+s5044
+i<UIKit/UIKit.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Reachability.m
+c000000004A4037C50000000000005B34
+t1245722565
+s23348
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i"Reachability.h"
+i<SystemConfiguration/SCNetworkReachability.h>
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.h
+c000000004ADB72BD000000000000019D
+t1255895741
+s413
+i<UIKit/UIKit.h>
+i"Atom.h"
+i"DetailViewController.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m
+c000000004ADB72BD00000000000011D8
+t1255895741
+s4568
+i"RootViewController.h"
+i"iRSSAppDelegate.h"
+i"Atom.h"
+i"RSS.h"
+i"DetailViewController.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/WebViewController.h
+c000000004ADB72BD000000000000017F
+t1255895741
+s383
+i<UIKit/UIKit.h>
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/WebViewController.m
+c000000004ADB72BD0000000000000657
+t1255895741
+s1623
+i"WebViewController.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/XMLParser.h
+c000000004ADB72BD00000000000002C2
+t1255895741
+s706
+i<UIKit/UIKit.h>
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/XMLParser.m
+c000000004ADB758500000000000016C6
+t1255896453
+s5830
+i"XMLParser.h"
+i"iRSSAppDelegate.h"
+i"Atom.h"
+i"RSS.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/iRSSAppDelegate.h
+c000000004ADB72BD00000000000003C0
+t1255895741
+s960
+i"Reachability.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/iRSSAppDelegate.m
+c000000004ADB72DA0000000000000BA4
+t1255895770
+s2980
+i"iRSSAppDelegate.h"
+i"RootViewController.h"
+i"XMLParser.h"
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/DetailViewController.xib
+c000000004A403AAC0000000000001D26
+t1245723308
+s7462
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/MainWindow.xib
+c000000004A403AA60000000000002CF8
+t1245723302
+s11512
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/RSS.xml
+c000000004A4037C40000000000000990
+t1245722564
+s2448
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/RootViewController.xib
+c000000004A4037C50000000000001C90
+t1245722565
+s7312
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/WebView.xib
+c000000004A4309790000000000001FE0
+t1245907321
+s8160
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/atom.xml
+c000000004A4037C800000000000002AB
+t1245722568
+s683
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app
+t1255896381
+s408
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app.dSYM
+t1255896381
+s102
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/DetailViewController.nib
+t1255891831
+s2167
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/Info.plist
+t1255891818
+s584
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/MainWindow.nib
+t1255891830
+s2053
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/PkgInfo
+t1255891818
+s8
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/RSS.xml
+t1255891830
+s2448
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/RootViewController.nib
+t1255891830
+s1393
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/WebView.nib
+t1255891833
+s1515
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/atom.xml
+t1255891830
+s683
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS
+t1255896381
+s71740
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS.png
+t1255891830
+s7399
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Atom.o
+t1255895741
+s17140
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/DetailViewController.o
+t1255895742
+s45508
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/FeedViewController.o
+t1255895742
+s48876
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RSS.o
+t1255895741
+s20704
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Reachability.o
+t1255891834
+s38160
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RootViewController.o
+t1255895741
+s50708
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/WebViewController.o
+t1255895742
+s32448
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/XMLParser.o
+t1255896381
+s46280
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/iRSS.LinkFileList
+c000000004ADB636A00000000000004C4
+t1255891818
+s1220
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/iRSSAppDelegate.o
+t1255895771
+s51612
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/main.o
+t1255895741
+s5952
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/iRSS.png
+c000000004A4037C40000000000001CE7
+t1245722564
+s7399
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/iRSS_Prefix.pch
+c000000004A4037C5000000000000013A
+t1245722565
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Oso/Documents/Cocoa/iRSS/iRSS/main.m
+c000000004ADB72BD000000000000015D
+t1255895741
+s349
+i<UIKit/UIKit.h>
+
+N/var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch.gch
+t1255891832
+s13034960
+
+NiRSS-Info.plist
+c000000004A4037C50000000000000391
+t1245722565
+s913
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies277589180#277589180#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Atom.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Atom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277588541.666489
+e277588541.763980
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Atom.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Atom.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Atom.m277588541#277588541#0(0"0(0#0#51"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Atom.m4300885448#1976"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Atom.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Atom.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/DetailViewController.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277588541.869302
+e277588542.132731
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/DetailViewController.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/DetailViewController.m277588541#277588542#0(0"0(0#0#67"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/DetailViewController.m4300885448#2008"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/DetailViewController.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/DetailViewController.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/FeedViewController.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277588541.900323
+e277588542.101039
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/FeedViewController.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m: In function '-[FeedViewController tableView:cellForRowAtIndexPath:]':
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m:99: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m:76: warning: unused variable 'row'
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m: In function '-[FeedViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m:116: warning: unused variable 'row'
+lSLF07#2@73"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m277588541#277588542#0(755"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m: In function '-[FeedViewController tableView:cellForRowAtIndexPath:]':/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m:99: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m:76: warning: unused variable 'row'/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m: In function '-[FeedViewController tableView:didSelectRowAtIndexPath:]':/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m:116: warning: unused variable 'row'3(22@196"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)277588541#137#276#0(6@65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m277588541#99#0#99#0#33"'*' is deprecated (declared at *)0(22@21"Unused variable 'row'277588541#413#101#0(6@65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m277588541#76#0#76#0#19"unused variable '*'0(22@21"Unused variable 'row'277588541#653#102#0(6@65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m277588541#116#0#116#0#19"unused variable '*'0(0#0#65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m4300885448#2004"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/FeedViewController.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/FeedViewController.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RSS.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RSS.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277588541.764073
+e277588541.900130
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RSS.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RSS.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RSS.m277588541#277588541#0(0"0(0#0#50"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RSS.m4300885448#1974"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RSS.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RSS.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Reachability.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277584633.844261
+e277584634.027349
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Reachability.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Reachability.m277584633#277584634#0(0"0(0#0#59"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Reachability.m4300885448#1992"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/Reachability.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/Reachability.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RootViewController.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277588541.488155
+e277588541.666392
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RootViewController.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m:93: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m:96: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m:76: warning: unused variable 'row'
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m:114: warning: unused variable 'row'
+lSLF07#2@73"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m277588541#277588541#0(1031"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m:93: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m:96: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m:76: warning: unused variable 'row'/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m:114: warning: unused variable 'row'4(22@196"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)277588541#137#276#0(6@65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m277588541#93#0#93#0#33"'*' is deprecated (declared at *)0(22@196"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)277588541#413#276#0(6@65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m277588541#96#0#96#0#33"'*' is deprecated (declared at *)0(22@21"Unused variable 'row'277588541#689#101#0(6@65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m277588541#76#0#76#0#19"unused variable '*'0(22@21"Unused variable 'row'277588541#929#102#0(6@65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m277588541#114#0#114#0#19"unused variable '*'0(0#0#65"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m4300885448#2004"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/RootViewController.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/WebViewController.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/WebViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277588542.101131
+e277588542.195668
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/WebViewController.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/WebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/WebViewController.m277588542#277588542#0(0"0(0#0#64"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/WebViewController.m4300885448#2002"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/WebViewController.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/WebViewController.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/XMLParser.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277589180.923523
+e277589181.055715
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/XMLParser.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/XMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/XMLParser.m277589180#277589181#0(0"0(0#0#56"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/XMLParser.m4300885448#1986"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/XMLParser.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/XMLParser.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/iRSSAppDelegate.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/iRSSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277588571.320351
+e277588571.426736
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/iRSSAppDelegate.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/iRSSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/iRSSAppDelegate.m277588571#277588571#0(0"0(0#0#62"/Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/iRSSAppDelegate.m4300885448#1998"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/Classes/iRSSAppDelegate.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/iRSSAppDelegate.o0#
+
+CCompileC build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/main.o /Users/Oso/Documents/Cocoa/iRSS/iRSS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s277588541.383652
+e277588541.488055
+r1
+xCompileC
+xbuild/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/main.o
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/main.m277588541#277588541#0(0"0(0#0#43"/Users/Oso/Documents/Cocoa/iRSS/iRSS/main.m4300885448#1968"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -include /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/main.m -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Oso/Documents/Cocoa/iRSS/iRSS/DetailViewController.xib
+s277584630.394061
+e277584631.190411
+r1
+xCompileXIB
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/DetailViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB DetailViewController.xib277584630#277584631#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#61"/Users/Oso/Documents/Cocoa/iRSS/iRSS/DetailViewController.xib4300885448#493"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/DetailViewController.nib /Users/Oso/Documents/Cocoa/iRSS/iRSS/DetailViewController.xib0#
+
+CCompileXIB /Users/Oso/Documents/Cocoa/iRSS/iRSS/MainWindow.xib
+s277584618.745087
+e277584630.401545
+r1
+xCompileXIB
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib277584618#277584630#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#51"/Users/Oso/Documents/Cocoa/iRSS/iRSS/MainWindow.xib4300885448#473"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/MainWindow.nib /Users/Oso/Documents/Cocoa/iRSS/iRSS/MainWindow.xib0#
+
+CCompileXIB /Users/Oso/Documents/Cocoa/iRSS/iRSS/RootViewController.xib
+s277584618.773745
+e277584630.391564
+r1
+xCompileXIB
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib277584618#277584630#0(0"0(0#0#59"/Users/Oso/Documents/Cocoa/iRSS/iRSS/RootViewController.xib4300885448#489"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/RootViewController.nib /Users/Oso/Documents/Cocoa/iRSS/iRSS/RootViewController.xib0#
+
+CCompileXIB /Users/Oso/Documents/Cocoa/iRSS/iRSS/WebView.xib
+s277584633.131466
+e277584633.575243
+r1
+xCompileXIB
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/WebView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@22"CompileXIB WebView.xib277584633#277584633#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Users/Oso/Documents/Cocoa/iRSS/iRSS/WebView.xib4300885448#467"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/WebView.nib /Users/Oso/Documents/Cocoa/iRSS/iRSS/WebView.xib0#
+
+CCpResource build/Debug-iphonesimulator/iRSS.app/RSS.xml RSS.xml
+s277584630.393062
+e277584630.447520
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRSS.app/RSS.xml
+xRSS.xml
+lSLF07#2@12"Copy RSS.xml277584630#277584630#0(0"0(0#0#44"/Users/Oso/Documents/Cocoa/iRSS/iRSS/RSS.xml4300885448#442"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Oso/Documents/Cocoa/iRSS/iRSS/RSS.xml /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app0#
+
+CCpResource build/Debug-iphonesimulator/iRSS.app/atom.xml atom.xml
+s277584630.391726
+e277584630.435461
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRSS.app/atom.xml
+xatom.xml
+lSLF07#2@13"Copy atom.xml277584630#277584630#0(0"0(0#0#45"/Users/Oso/Documents/Cocoa/iRSS/iRSS/atom.xml4300885448#443"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Oso/Documents/Cocoa/iRSS/iRSS/atom.xml /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app0#
+
+CCpResource build/Debug-iphonesimulator/iRSS.app/iRSS.png iRSS.png
+s277584630.447606
+e277584630.459133
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRSS.app/iRSS.png
+xiRSS.png
+lSLF07#2@13"Copy iRSS.png277584630#277584630#0(0"0(0#0#45"/Users/Oso/Documents/Cocoa/iRSS/iRSS/iRSS.png4300885448#443"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Oso/Documents/Cocoa/iRSS/iRSS/iRSS.png /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app0#
+
+CGenerateDSYMFile /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app.dSYM /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS
+s277589181.083384
+e277589181.115593
+r1
+xGenerateDSYMFile
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app.dSYM
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/iRSS.app.dSYM build/Debug-iphonesimulator/iRSS.app/iRSS277589181#277589181#0(0"0(0#0#78"/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS4300885448#368"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app.dSYM0#
+
+CLd /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS normal i386
+s277589181.055807
+e277589181.083259
+r1
+xLd
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS
+xnormal
+xi386
+lSLF07#2@83"Link /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS277589181#277589181#0(0"0(0#0#0"4300885448#870"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -filelist /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/Objects-normal/i386/iRSS.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/iRSS0#
+
+CProcessInfoPlistFile /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/Info.plist iRSS-Info.plist
+s277584618.712617
+e277584618.744962
+r1
+xProcessInfoPlistFile
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/Info.plist
+xiRSS-Info.plist
+lSLF07#2@23"Process iRSS-Info.plist277584618#277584618#0(0"0(0#0#52"/Users/Oso/Documents/Cocoa/iRSS/iRSS/iRSS-Info.plist31525648366108776#464"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iRSS-Info.plist -genpkginfo /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app/Info.plist0#
+
+CProcessPCH /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch.gch iRSS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s277584631.190606
+e277584633.131263
+r1
+xProcessPCH
+x/var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch.gch
+xiRSS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile iRSS_Prefix.pch277584631#277584633#0(0"0(0#0#52"/Users/Oso/Documents/Cocoa/iRSS/iRSS/iRSS_Prefix.pch4300885448#1865"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-generated-files.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-own-target-headers.hmap -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-all-target-headers.hmap -iquote /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/iRSS-project-headers.hmap -F/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/libxml -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources/i386 -I/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/iRSS.build/Debug-iphonesimulator/iRSS.build/DerivedSources -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/iRSS_Prefix.pch -o /var/folders/QM/QMEerz5vHGORi4qQ-4FPKk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iRSS_Prefix-bvimjwksfsnjvzgdietsowddgerb/iRSS_Prefix.pch.gch0#
+
+CTouch /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app
+s277589181.115864
+e277589181.118341
+r1
+xTouch
+x/Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app
+lSLF07#2@79"Touch /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app277589181#277589181#0(0"0(0#0#0"4300885448#271"    cd /Users/Oso/Documents/Cocoa/iRSS/iRSS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Oso/Documents/Cocoa/iRSS/iRSS/build/Debug-iphonesimulator/iRSS.app0#
+

@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iRSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iRSSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		74015E2B1129E26800191638 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74015E2A1129E26800191638 /* AudioToolbox.framework */; };
+		7409550E108BDECC001ECE04 /* ConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7409550C108BDECC001ECE04 /* ConfigurationController.m */; };
+		7409550F108BDECC001ECE04 /* ConfigurationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7409550D108BDECC001ECE04 /* ConfigurationController.xib */; };
+		742901F40FF070FF00D12759 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742901F20FF070FF00D12759 /* WebViewController.m */; };
+		743975F4118549460085279A /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 743975F3118549460085279A /* MainWindow-iPad.xib */; };
+		743975F9118549780085279A /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 743975F8118549780085279A /* libxml2.2.dylib */; };
+		74E47EE50FF1A9B100EBCA34 /* WebView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 74E47EE40FF1A9B100EBCA34 /* WebView.xib */; };
+		74E4F59D1104F4B700A611DC /* MallocLogoSolo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E4F59C1104F4B700A611DC /* MallocLogoSolo.png */; };
+		74E663D61097FE8500DC908D /* rsslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E663D51097FE8500DC908D /* rsslogo.png */; };
+		74EBEBA21105240B008E63BD /* simpleFeed_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 74EBEBA11105240B008E63BD /* simpleFeed_Small.png */; };
+		F961675C0F812035005B643C /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F961675B0F812035005B643C /* XMLParser.m */; };
+		F961675F0F812150005B643C /* Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = F961675E0F812150005B643C /* Atom.m */; };
+		F96168F10F817104005B643C /* atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = F96168F00F817104005B643C /* atom.xml */; };
+		F9974EAB0F8E543700A1A225 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9974EAA0F8E543700A1A225 /* FeedViewController.m */; };
+		F9BBA7B90F8666E1001EF242 /* RSS.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BBA7B80F8666E1001EF242 /* RSS.m */; };
+		F9BBA7BC0F86681C001EF242 /* RSS.xml in Resources */ = {isa = PBXBuildFile; fileRef = F9BBA7BB0F86681C001EF242 /* RSS.xml */; };
+		F9BBA9B80F868751001EF242 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BBA9B60F868751001EF242 /* DetailViewController.m */; };
+		F9BBAB760F869F66001EF242 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BBAB750F869F66001EF242 /* DetailViewController.xib */; };
+		F9BBAD750F87DC42001EF242 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BBAD740F87DC42001EF242 /* Reachability.m */; };
+		F9BBAD920F87DED4001EF242 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BBAD910F87DED4001EF242 /* SystemConfiguration.framework */; };
+		F9BBAE660F87E550001EF242 /* iRSS.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BBAE650F87E550001EF242 /* iRSS.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iRSSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRSSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iRSSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRSSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* simpleFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* simpleFeed_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleFeed_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74015E2A1129E26800191638 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7409550B108BDECC001ECE04 /* ConfigurationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationController.h; sourceTree = "<group>"; };
+		7409550C108BDECC001ECE04 /* ConfigurationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationController.m; sourceTree = "<group>"; };
+		7409550D108BDECC001ECE04 /* ConfigurationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConfigurationController.xib; path = Classes/ConfigurationController.xib; sourceTree = "<group>"; };
+		742901F20FF070FF00D12759 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		742901F30FF070FF00D12759 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		743975F3118549460085279A /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		743975F8118549780085279A /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		74E47EE40FF1A9B100EBCA34 /* WebView.xib */ = {isa = PBXFileReference; explicitFileType = file.xib; fileEncoding = 4; path = WebView.xib; sourceTree = "<group>"; };
+		74E4F59C1104F4B700A611DC /* MallocLogoSolo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MallocLogoSolo.png; sourceTree = "<group>"; };
+		74E663D51097FE8500DC908D /* rsslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsslogo.png; sourceTree = "<group>"; };
+		74EBEBA11105240B008E63BD /* simpleFeed_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simpleFeed_Small.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iRSS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iRSS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F961675A0F812035005B643C /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		F961675B0F812035005B643C /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		F961675D0F812150005B643C /* Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
+		F961675E0F812150005B643C /* Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atom.m; sourceTree = "<group>"; };
+		F96168F00F817104005B643C /* atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atom.xml; sourceTree = "<group>"; };
+		F9974EA90F8E543700A1A225 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		F9974EAA0F8E543700A1A225 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		F9BBA7B70F8666E1001EF242 /* RSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSS.h; sourceTree = "<group>"; };
+		F9BBA7B80F8666E1001EF242 /* RSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSS.m; sourceTree = "<group>"; };
+		F9BBA7BB0F86681C001EF242 /* RSS.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RSS.xml; sourceTree = "<group>"; };
+		F9BBA9B50F868751001EF242 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F9BBA9B60F868751001EF242 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F9BBAB750F869F66001EF242 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		F9BBAD730F87DC42001EF242 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F9BBAD740F87DC42001EF242 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F9BBAD910F87DED4001EF242 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F9BBAE650F87E550001EF242 /* iRSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iRSS.png; sourceTree = "<group>"; };
+		F9BF91D90F9D19E500DFB180 /* c14n.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = c14n.h; path = libxml/c14n.h; sourceTree = SOURCE_ROOT; };
+		F9BF91DA0F9D19E500DFB180 /* catalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = catalog.h; path = libxml/catalog.h; sourceTree = SOURCE_ROOT; };
+		F9BF91DB0F9D19E500DFB180 /* chvalid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chvalid.h; path = libxml/chvalid.h; sourceTree = SOURCE_ROOT; };
+		F9BF91DC0F9D19E500DFB180 /* debugXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debugXML.h; path = libxml/debugXML.h; sourceTree = SOURCE_ROOT; };
+		F9BF91DD0F9D19E500DFB180 /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dict.h; path = libxml/dict.h; sourceTree = SOURCE_ROOT; };
+		F9BF91DE0F9D19E500DFB180 /* DOCBparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOCBparser.h; path = libxml/DOCBparser.h; sourceTree = SOURCE_ROOT; };
+		F9BF91DF0F9D19E500DFB180 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = encoding.h; path = libxml/encoding.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E00F9D19E500DFB180 /* entities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = entities.h; path = libxml/entities.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E10F9D19E500DFB180 /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = globals.h; path = libxml/globals.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E20F9D19E500DFB180 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hash.h; path = libxml/hash.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E30F9D19E500DFB180 /* HTMLparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLparser.h; path = libxml/HTMLparser.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E40F9D19E500DFB180 /* HTMLtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLtree.h; path = libxml/HTMLtree.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E50F9D19E500DFB180 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = list.h; path = libxml/list.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E60F9D19E500DFB180 /* nanoftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanoftp.h; path = libxml/nanoftp.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E70F9D19E500DFB180 /* nanohttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanohttp.h; path = libxml/nanohttp.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E80F9D19E500DFB180 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parser.h; path = libxml/parser.h; sourceTree = SOURCE_ROOT; };
+		F9BF91E90F9D19E500DFB180 /* parserInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parserInternals.h; path = libxml/parserInternals.h; sourceTree = SOURCE_ROOT; };
+		F9BF91EA0F9D19E500DFB180 /* pattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pattern.h; path = libxml/pattern.h; sourceTree = SOURCE_ROOT; };
+		F9BF91EB0F9D19E500DFB180 /* relaxng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = relaxng.h; path = libxml/relaxng.h; sourceTree = SOURCE_ROOT; };
+		F9BF91EC0F9D19E500DFB180 /* SAX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAX.h; path = libxml/SAX.h; sourceTree = SOURCE_ROOT; };
+		F9BF91ED0F9D19E500DFB180 /* SAX2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAX2.h; path = libxml/SAX2.h; sourceTree = SOURCE_ROOT; };
+		F9BF91EE0F9D19E500DFB180 /* schemasInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = schemasInternals.h; path = libxml/schemasInternals.h; sourceTree = SOURCE_ROOT; };
+		F9BF91EF0F9D19E500DFB180 /* schematron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = schematron.h; path = libxml/schematron.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F00F9D19E500DFB180 /* threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = threads.h; path = libxml/threads.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F10F9D19E500DFB180 /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tree.h; path = libxml/tree.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F20F9D19E500DFB180 /* uri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uri.h; path = libxml/uri.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F30F9D19E500DFB180 /* valid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = valid.h; path = libxml/valid.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F40F9D19E500DFB180 /* xinclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xinclude.h; path = libxml/xinclude.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F50F9D19E500DFB180 /* xlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xlink.h; path = libxml/xlink.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F60F9D19E500DFB180 /* xmlautomata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlautomata.h; path = libxml/xmlautomata.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F70F9D19E500DFB180 /* xmlerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlerror.h; path = libxml/xmlerror.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F80F9D19E500DFB180 /* xmlexports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlexports.h; path = libxml/xmlexports.h; sourceTree = SOURCE_ROOT; };
+		F9BF91F90F9D19E500DFB180 /* xmlIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlIO.h; path = libxml/xmlIO.h; sourceTree = SOURCE_ROOT; };
+		F9BF91FA0F9D19E500DFB180 /* xmlmemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlmemory.h; path = libxml/xmlmemory.h; sourceTree = SOURCE_ROOT; };
+		F9BF91FB0F9D19E500DFB180 /* xmlmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlmodule.h; path = libxml/xmlmodule.h; sourceTree = SOURCE_ROOT; };
+		F9BF91FC0F9D19E500DFB180 /* xmlreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlreader.h; path = libxml/xmlreader.h; sourceTree = SOURCE_ROOT; };
+		F9BF91FD0F9D19E500DFB180 /* xmlregexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlregexp.h; path = libxml/xmlregexp.h; sourceTree = SOURCE_ROOT; };
+		F9BF91FE0F9D19E500DFB180 /* xmlsave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlsave.h; path = libxml/xmlsave.h; sourceTree = SOURCE_ROOT; };
+		F9BF91FF0F9D19E500DFB180 /* xmlschemas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlschemas.h; path = libxml/xmlschemas.h; sourceTree = SOURCE_ROOT; };
+		F9BF92000F9D19E500DFB180 /* xmlschemastypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlschemastypes.h; path = libxml/xmlschemastypes.h; sourceTree = SOURCE_ROOT; };
+		F9BF92010F9D19E500DFB180 /* xmlstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlstring.h; path = libxml/xmlstring.h; sourceTree = SOURCE_ROOT; };
+		F9BF92020F9D19E500DFB180 /* xmlunicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlunicode.h; path = libxml/xmlunicode.h; sourceTree = SOURCE_ROOT; };
+		F9BF92030F9D19E500DFB180 /* xmlversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlversion.h; path = libxml/xmlversion.h; sourceTree = SOURCE_ROOT; };
+		F9BF92040F9D19E500DFB180 /* xmlwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlwriter.h; path = libxml/xmlwriter.h; sourceTree = SOURCE_ROOT; };
+		F9BF92050F9D19E500DFB180 /* xpath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xpath.h; path = libxml/xpath.h; sourceTree = SOURCE_ROOT; };
+		F9BF92060F9D19E500DFB180 /* xpathInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xpathInternals.h; path = libxml/xpathInternals.h; sourceTree = SOURCE_ROOT; };
+		F9BF92070F9D19E500DFB180 /* xpointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xpointer.h; path = libxml/xpointer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				F9BBAD920F87DED4001EF242 /* SystemConfiguration.framework in Frameworks */,
+				74015E2B1129E26800191638 /* AudioToolbox.framework in Frameworks */,
+				743975F9118549780085279A /* libxml2.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				742901F20FF070FF00D12759 /* WebViewController.m */,
+				742901F30FF070FF00D12759 /* WebViewController.h */,
+				F9BBAD730F87DC42001EF242 /* Reachability.h */,
+				F9BBAD740F87DC42001EF242 /* Reachability.m */,
+				F961675A0F812035005B643C /* XMLParser.h */,
+				F961675B0F812035005B643C /* XMLParser.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* iRSSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iRSSAppDelegate.m */,
+				F961675D0F812150005B643C /* Atom.h */,
+				F961675E0F812150005B643C /* Atom.m */,
+				F9BBA7B70F8666E1001EF242 /* RSS.h */,
+				F9BBA7B80F8666E1001EF242 /* RSS.m */,
+				F9BBA9B50F868751001EF242 /* DetailViewController.h */,
+				F9BBA9B60F868751001EF242 /* DetailViewController.m */,
+				F9974EA90F8E543700A1A225 /* FeedViewController.h */,
+				F9974EAA0F8E543700A1A225 /* FeedViewController.m */,
+				7409550B108BDECC001ECE04 /* ConfigurationController.h */,
+				7409550C108BDECC001ECE04 /* ConfigurationController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* simpleFeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				743975F2118549420085279A /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF91D80F9D19E500DFB180 /* libxml */,
+				28A0AAE50D9B0CCF005BE974 /* simpleFeed_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74EBEBA11105240B008E63BD /* simpleFeed_Small.png */,
+				74E4F59C1104F4B700A611DC /* MallocLogoSolo.png */,
+				74E663D51097FE8500DC908D /* rsslogo.png */,
+				7409550D108BDECC001ECE04 /* ConfigurationController.xib */,
+				F9BBAE650F87E550001EF242 /* iRSS.png */,
+				F9BBAB750F869F66001EF242 /* DetailViewController.xib */,
+				F9BBA7BB0F86681C001EF242 /* RSS.xml */,
+				F96168F00F817104005B643C /* atom.xml */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iRSS-Info.plist */,
+				74E47EE40FF1A9B100EBCA34 /* WebView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9BBAD910F87DED4001EF242 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				74015E2A1129E26800191638 /* AudioToolbox.framework */,
+				743975F8118549780085279A /* libxml2.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		743975F2118549420085279A /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				743975F3118549460085279A /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		F9BF91D80F9D19E500DFB180 /* libxml */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF91D90F9D19E500DFB180 /* c14n.h */,
+				F9BF91DA0F9D19E500DFB180 /* catalog.h */,
+				F9BF91DB0F9D19E500DFB180 /* chvalid.h */,
+				F9BF91DC0F9D19E500DFB180 /* debugXML.h */,
+				F9BF91DD0F9D19E500DFB180 /* dict.h */,
+				F9BF91DE0F9D19E500DFB180 /* DOCBparser.h */,
+				F9BF91DF0F9D19E500DFB180 /* encoding.h */,
+				F9BF91E00F9D19E500DFB180 /* entities.h */,
+				F9BF91E10F9D19E500DFB180 /* globals.h */,
+				F9BF91E20F9D19E500DFB180 /* hash.h */,
+				F9BF91E30F9D19E500DFB180 /* HTMLparser.h */,
+				F9BF91E40F9D19E500DFB180 /* HTMLtree.h */,
+				F9BF91E50F9D19E500DFB180 /* list.h */,
+				F9BF91E60F9D19E500DFB180 /* nanoftp.h */,
+				F9BF91E70F9D19E500DFB180 /* nanohttp.h */,
+				F9BF91E80F9D19E500DFB180 /* parser.h */,
+				F9BF91E90F9D19E500DFB180 /* parserInternals.h */,
+				F9BF91EA0F9D19E500DFB180 /* pattern.h */,
+				F9BF91EB0F9D19E500DFB180 /* relaxng.h */,
+				F9BF91EC0F9D19E500DFB180 /* SAX.h */,
+				F9BF91ED0F9D19E500DFB180 /* SAX2.h */,
+				F9BF91EE0F9D19E500DFB180 /* schemasInternals.h */,
+				F9BF91EF0F9D19E500DFB180 /* schematron.h */,
+				F9BF91F00F9D19E500DFB180 /* threads.h */,
+				F9BF91F10F9D19E500DFB180 /* tree.h */,
+				F9BF91F20F9D19E500DFB180 /* uri.h */,
+				F9BF91F30F9D19E500DFB180 /* valid.h */,
+				F9BF91F40F9D19E500DFB180 /* xinclude.h */,
+				F9BF91F50F9D19E500DFB180 /* xlink.h */,
+				F9BF91F60F9D19E500DFB180 /* xmlautomata.h */,
+				F9BF91F70F9D19E500DFB180 /* xmlerror.h */,
+				F9BF91F80F9D19E500DFB180 /* xmlexports.h */,
+				F9BF91F90F9D19E500DFB180 /* xmlIO.h */,
+				F9BF91FA0F9D19E500DFB180 /* xmlmemory.h */,
+				F9BF91FB0F9D19E500DFB180 /* xmlmodule.h */,
+				F9BF91FC0F9D19E500DFB180 /* xmlreader.h */,
+				F9BF91FD0F9D19E500DFB180 /* xmlregexp.h */,
+				F9BF91FE0F9D19E500DFB180 /* xmlsave.h */,
+				F9BF91FF0F9D19E500DFB180 /* xmlschemas.h */,
+				F9BF92000F9D19E500DFB180 /* xmlschemastypes.h */,
+				F9BF92010F9D19E500DFB180 /* xmlstring.h */,
+				F9BF92020F9D19E500DFB180 /* xmlunicode.h */,
+				F9BF92030F9D19E500DFB180 /* xmlversion.h */,
+				F9BF92040F9D19E500DFB180 /* xmlwriter.h */,
+				F9BF92050F9D19E500DFB180 /* xpath.h */,
+				F9BF92060F9D19E500DFB180 /* xpathInternals.h */,
+				F9BF92070F9D19E500DFB180 /* xpointer.h */,
+			);
+			path = libxml;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* simpleFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "simpleFeed" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleFeed;
+			productName = iRSS;
+			productReference = 1D6058910D05DD3D006BFB54 /* simpleFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Malloc Media LLC";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "simpleFeed" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* simpleFeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				F96168F10F817104005B643C /* atom.xml in Resources */,
+				F9BBA7BC0F86681C001EF242 /* RSS.xml in Resources */,
+				F9BBAB760F869F66001EF242 /* DetailViewController.xib in Resources */,
+				F9BBAE660F87E550001EF242 /* iRSS.png in Resources */,
+				7409550F108BDECC001ECE04 /* ConfigurationController.xib in Resources */,
+				74E663D61097FE8500DC908D /* rsslogo.png in Resources */,
+				74E4F59D1104F4B700A611DC /* MallocLogoSolo.png in Resources */,
+				74EBEBA21105240B008E63BD /* simpleFeed_Small.png in Resources */,
+				743975F4118549460085279A /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iRSSAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				F961675C0F812035005B643C /* XMLParser.m in Sources */,
+				F961675F0F812150005B643C /* Atom.m in Sources */,
+				F9BBA7B90F8666E1001EF242 /* RSS.m in Sources */,
+				F9BBA9B80F868751001EF242 /* DetailViewController.m in Sources */,
+				F9BBAD750F87DC42001EF242 /* Reachability.m in Sources */,
+				F9974EAB0F8E543700A1A225 /* FeedViewController.m in Sources */,
+				742901F40FF070FF00D12759 /* WebViewController.m in Sources */,
+				74E47EE50FF1A9B100EBCA34 /* WebView.xib in Sources */,
+				7409550E108BDECC001ECE04 /* ConfigurationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = simpleFeed_Prefix.pch;
+				INFOPLIST_FILE = "iRSS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = simpleFeed;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = simpleFeed_Prefix.pch;
+				INFOPLIST_FILE = "iRSS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = simpleFeed;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roberto Osorio (427FTDS8G2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roberto Osorio (427FTDS8G2)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/**";
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "784CF169-029F-4181-94A2-FA482D368938";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "784CF169-029F-4181-94A2-FA482D368938";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/**";
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "simpleFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "simpleFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
