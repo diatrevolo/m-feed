@@ -89,7 +89,7 @@
 	
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:TopLevelCellIdentifier];
 	if (cell == nil) {
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:TopLevelCellIdentifier] autorelease];
+		cell = [[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:TopLevelCellIdentifier];
 	}
 	// Configure the cell
 	//NSUInteger row = [indexPath row];
@@ -98,7 +98,7 @@
 	
 	
 	//Atom *aAtom = [appDelegate.entries objectAtIndex:indexPath.row];  //HERE IS WHERE THE VALUES GET LOADED IN AND I CAN USE THEM (from appDelegate)
-	RSS *aRSS = [appDelegate.entries objectAtIndex:indexPath.row];
+	RSS *aRSS = (appDelegate.entries)[indexPath.row];
 	
 	
 	
@@ -150,9 +150,6 @@
 	return 66;
 }
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end

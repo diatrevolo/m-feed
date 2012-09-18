@@ -209,12 +209,6 @@
 
 
 
-- (void)dealloc {
-	[textField release];
-	[button release];
-	[mallocMedia release];
-    [super dealloc];
-}
 
 
 @end

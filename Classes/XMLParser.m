@@ -22,7 +22,7 @@
 
 - (XMLParser *) initXMLParser {
 	
-	[super init];
+	if (!(self = [super init])) return nil;
 	
 	appDelegate = (iRSSAppDelegate *)[[UIApplication sharedApplication] delegate];
 	
@@ -40,7 +40,7 @@
 		appDelegate.entries = [[NSMutableArray alloc] init];
 		typeOfFeed = RSS_FEED;
 	} else if([elementName isEqualToString:@"link"] && typeOfFeed == ATOM_FEED){//application"]) {
-		aAtom.link = [attributeDict objectForKey:@"link"];
+		aAtom.link = attributeDict[@"link"];
 	} else if ([elementName isEqualToString:@"entry"] && typeOfFeed == ATOM_FEED) {
 		aAtom = [[Atom alloc] init];
 	} else if ([elementName isEqualToString:@"item"] && typeOfFeed == RSS_FEED) {  //THIS SETS THE PRECEDENT FOR THE BOTTOM STUFF
@@ -83,13 +83,11 @@
 	
 	if ([elementName isEqualToString:@"entry"] && typeOfFeed == ATOM_FEED) {
 		[appDelegate.entries addObject:aAtom];
-		[aAtom release];
 		aAtom = nil;
 	}
 	
 	if ([elementName isEqualToString:@"item"] && typeOfFeed == RSS_FEED) {
 		[appDelegate.entries addObject:aRSS];
-		[aRSS release];
 		aRSS = nil;
 	}
 	
@@ -140,17 +138,8 @@
 		if (typeOfFeed == RSS_FEED)
 			[aRSS setValue:currentElementValue forKey:@"garbage"];
 	}
-	[currentElementValue release];
 	currentElementValue = nil;
 }
 
-- (void) dealloc {
-	if (typeOfFeed == RSS_FEED)
-		[aRSS release];
-	else if (typeOfFeed == ATOM_FEED)
-		[aAtom release];
-	[currentElementValue release];
-	[super dealloc];
-}
 
 @end

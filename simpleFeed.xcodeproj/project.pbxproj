@@ -10,6 +10,7 @@
 		1D3623260D0F684500981E51 /* iRSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iRSSAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1D7CC9491608DA52009AA65B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D7CC9481608DA52009AA65B /* Default-568h@2x.png */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
@@ -19,7 +20,6 @@
 		7409550E108BDECC001ECE04 /* ConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7409550C108BDECC001ECE04 /* ConfigurationController.m */; };
 		7409550F108BDECC001ECE04 /* ConfigurationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7409550D108BDECC001ECE04 /* ConfigurationController.xib */; };
 		742901F40FF070FF00D12759 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742901F20FF070FF00D12759 /* WebViewController.m */; };
-		743975F4118549460085279A /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 743975F3118549460085279A /* MainWindow-iPad.xib */; };
 		743975F9118549780085279A /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 743975F8118549780085279A /* libxml2.2.dylib */; };
 		74E47EE50FF1A9B100EBCA34 /* WebView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 74E47EE40FF1A9B100EBCA34 /* WebView.xib */; };
 		74E4F59D1104F4B700A611DC /* MallocLogoSolo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E4F59C1104F4B700A611DC /* MallocLogoSolo.png */; };
@@ -33,7 +33,7 @@
 		F9BBA7BC0F86681C001EF242 /* RSS.xml in Resources */ = {isa = PBXBuildFile; fileRef = F9BBA7BB0F86681C001EF242 /* RSS.xml */; };
 		F9BBA9B80F868751001EF242 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BBA9B60F868751001EF242 /* DetailViewController.m */; };
 		F9BBAB760F869F66001EF242 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BBAB750F869F66001EF242 /* DetailViewController.xib */; };
-		F9BBAD750F87DC42001EF242 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BBAD740F87DC42001EF242 /* Reachability.m */; };
+		F9BBAD750F87DC42001EF242 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BBAD740F87DC42001EF242 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F9BBAD920F87DED4001EF242 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BBAD910F87DED4001EF242 /* SystemConfiguration.framework */; };
 		F9BBAE660F87E550001EF242 /* iRSS.png in Resources */ = {isa = PBXBuildFile; fileRef = F9BBAE650F87E550001EF242 /* iRSS.png */; };
 /* End PBXBuildFile section */
@@ -43,6 +43,7 @@
 		1D3623240D0F684500981E51 /* iRSSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRSSAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* iRSSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRSSAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* simpleFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7CC9481608DA52009AA65B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		7409550D108BDECC001ECE04 /* ConfigurationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConfigurationController.xib; path = Classes/ConfigurationController.xib; sourceTree = "<group>"; };
 		742901F20FF070FF00D12759 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		742901F30FF070FF00D12759 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		743975F3118549460085279A /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		743975F8118549780085279A /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		74E47EE40FF1A9B100EBCA34 /* WebView.xib */ = {isa = PBXFileReference; explicitFileType = file.xib; fileEncoding = 4; path = WebView.xib; sourceTree = "<group>"; };
 		74E4F59C1104F4B700A611DC /* MallocLogoSolo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MallocLogoSolo.png; sourceTree = "<group>"; };
@@ -185,6 +185,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1D7CC9481608DA52009AA65B /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -240,7 +241,6 @@
 		743975F2118549420085279A /* Resources-iPad */ = {
 			isa = PBXGroup;
 			children = (
-				743975F3118549460085279A /* MainWindow-iPad.xib */,
 			);
 			name = "Resources-iPad";
 			sourceTree = "<group>";
@@ -329,6 +329,7 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "simpleFeed" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -361,7 +362,7 @@
 				74E663D61097FE8500DC908D /* rsslogo.png in Resources */,
 				74E4F59D1104F4B700A611DC /* MallocLogoSolo.png in Resources */,
 				74EBEBA21105240B008E63BD /* simpleFeed_Small.png in Resources */,
-				743975F4118549460085279A /* MainWindow-iPad.xib in Resources */,
+				1D7CC9491608DA52009AA65B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,15 +396,17 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = simpleFeed_Prefix.pch;
+				HEADER_SEARCH_PATHS = $SDK_DIR/usr/include/libxml2;
 				INFOPLIST_FILE = "iRSS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = simpleFeed;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -413,13 +416,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = simpleFeed_Prefix.pch;
+				HEADER_SEARCH_PATHS = $SDK_DIR/usr/include/libxml2;
 				INFOPLIST_FILE = "iRSS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = simpleFeed;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

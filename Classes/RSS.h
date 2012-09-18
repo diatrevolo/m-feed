@@ -30,23 +30,23 @@
 	NSString *garbage;
 }
 
-@property (nonatomic, retain) NSString *title;	
-@property (nonatomic, retain) NSString *link;
-@property (nonatomic, retain) NSString *description;	
-@property (nonatomic, retain) NSString *language;
-@property (nonatomic, retain) NSString *pubDate;
-@property (nonatomic, retain) NSString *lastBuildDate;
-@property (nonatomic, retain) NSString *docs;
-@property (nonatomic, retain) NSString *generator;
-@property (nonatomic, retain) NSString *managingEditor;
-@property (nonatomic, retain) NSString *webMaster;
-@property (nonatomic, retain) NSString *ttl;
-@property (nonatomic, retain) NSString *guid;
-@property (nonatomic, retain) NSString *category;
-@property (nonatomic, retain) NSString *media;
-@property (nonatomic, retain) NSString *copyright;
-@property (nonatomic, retain) NSString *image;
-@property (nonatomic, retain) NSString *url;
-@property (nonatomic, retain) NSString *garbage;
+@property (nonatomic, strong) NSString *title;	
+@property (nonatomic, strong) NSString *link;
+@property (nonatomic, strong) NSString *description;	
+@property (nonatomic, strong) NSString *language;
+@property (nonatomic, strong) NSString *pubDate;
+@property (nonatomic, strong) NSString *lastBuildDate;
+@property (nonatomic, strong) NSString *docs;
+@property (nonatomic, strong) NSString *generator;
+@property (nonatomic, strong) NSString *managingEditor;
+@property (nonatomic, strong) NSString *webMaster;
+@property (nonatomic, strong) NSString *ttl;
+@property (nonatomic, strong) NSString *guid;
+@property (nonatomic, strong) NSString *category;
+@property (nonatomic, strong) NSString *media;
+@property (nonatomic, strong) NSString *copyright;
+@property (nonatomic, strong) NSString *image;
+@property (nonatomic, strong) NSString *url;
+@property (nonatomic, strong) NSString *garbage;
 
 @end

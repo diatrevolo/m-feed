@@ -27,17 +27,19 @@
 	NetworkStatus localWiFiConnectionStatus;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet UINavigationController *navigationController;
 //@property (nonatomic, retain) IBOutlet ConfigurationController *configurationController;
-@property (nonatomic, retain) NSMutableArray *entries;
+@property (nonatomic, strong) NSMutableArray *entries;
 @property NetworkStatus remoteHostStatus;
 @property NetworkStatus internetConnectionStatus;
 @property NetworkStatus localWiFiConnectionStatus;
 @property NSInteger globalFeedType;
-@property (nonatomic, retain) NSURL *url;
+@property (nonatomic, strong) NSURL *url;
 @property BOOL firstRun;
 //@property NSUInteger loadFromIndex;
+
+- (void)updateStatus;
 
 @end
 

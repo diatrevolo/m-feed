@@ -15,7 +15,7 @@
 	NSURLRequest *urlString;
 }
 
-@property (nonatomic, retain) UIWebView *webView;
-@property (nonatomic, retain) NSURLRequest *urlString;
+@property (nonatomic, strong) UIWebView *webView;
+@property (nonatomic, strong) NSURLRequest *urlString;
 
 @end

@@ -26,9 +26,9 @@
 	NSNotificationCenter *sendToOthers;
 }
 
-@property (nonatomic, retain) IBOutlet UITextField *textField;
-@property (nonatomic, retain) IBOutlet UIButton *button;
-@property (nonatomic, retain) IBOutlet UIButton *mallocMedia;
+@property (nonatomic, strong) IBOutlet UITextField *textField;
+@property (nonatomic, strong) IBOutlet UIButton *button;
+@property (nonatomic, strong) IBOutlet UIButton *mallocMedia;
 
 - (IBAction)makeURL:(id)sender;
 - (IBAction)goToMallocMedia:(id)sender;

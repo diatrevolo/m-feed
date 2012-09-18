@@ -12,22 +12,5 @@
 @implementation Atom
 @synthesize title, subtitle, link, updated, authorName, authorEmail, feedId, entryTitle, entryLink, entryId, entryUpdated, entrySummary, content;
 
-- (void) dealloc
-{
-	[title release];
-	[subtitle release];
-	[link release];
-	[updated release];
-	[authorName release];
-	[authorEmail release];
-	[feedId release];
-	[entryTitle release];
-	[entryLink release];
-	[entryId release];
-	[entryUpdated release];
-	[entrySummary release];
-	[content release];
-	[super dealloc];
-}
 
 @end

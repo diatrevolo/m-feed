@@ -61,11 +61,6 @@
 }
 
 
-- (void)dealloc {
-	[webView release];
-	[urlString release];
-    [super dealloc];
-}
 
 
 @end

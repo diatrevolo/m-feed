@@ -23,8 +23,8 @@
 	BOOL configControllerShowing;
 }
 
-@property (nonatomic, retain) IBOutlet ConfigurationController *configurationController;
-@property (nonatomic, retain) UIPopoverController *popoverController;
+@property (nonatomic, strong) IBOutlet ConfigurationController *configurationController;
+@property (nonatomic, strong) UIPopoverController *popoverController;
 @property BOOL configControllerShowing;
 
 - (NSString *)dataFilePath;

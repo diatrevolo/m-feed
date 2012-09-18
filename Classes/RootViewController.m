@@ -24,10 +24,10 @@
 	configControllerShowing = false;
 	appDelegate = (iRSSAppDelegate *)[[UIApplication sharedApplication] delegate];
 	self.title = @"m-feed";
-	UIBarButtonItem *setupButton = [[[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Configure", @"")
+	UIBarButtonItem *setupButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Configure", @"")
 																   style:UIBarButtonItemStyleBordered
 																  target:self
-																  action:@selector(configure:)] autorelease];
+																  action:@selector(configure:)];
 	self.navigationItem.rightBarButtonItem = setupButton;
 	
 	UIApplication *app = [UIApplication sharedApplication];
@@ -57,7 +57,6 @@
 			UIPopoverController* aPopover = [[UIPopoverController alloc]
 											 initWithContentViewController:configurationController];
 			
-			[configurationController release];
 			
 			//CGSize sizeOfView = [configurationController.frame size];
 			
@@ -72,7 +71,6 @@
 			
 			[self.popoverController presentPopoverFromBarButtonItem:sender
 									   permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
-			[aPopover release];
 			NSLog(@"got to here");
 		}
 	}
@@ -85,14 +83,13 @@
 		configurationController = [[ConfigurationController alloc] initWithNibName: @"ConfigurationController" bundle: nil];
 		iRSSAppDelegate *delegate = [[UIApplication sharedApplication] delegate]; //delegate];
 		[delegate.navigationController pushViewController:configurationController animated:YES];
-		[configurationController release];
 	}
 }
 
 - (NSString *)dataFilePath
 {
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *documentsDirectory = paths[0];
 	return [documentsDirectory stringByAppendingPathComponent:kFilename];
 }
 - (void)applicationWillTerminate:(NSNotification *)notification
@@ -103,9 +100,8 @@
 	[array addObject:[appDelegate.url absoluteString]];
 	[array writeToFile:[self dataFilePath] atomically:YES];
 	if ([[NSFileManager defaultManager] fileExistsAtPath:[self dataFilePath]]){
-		NSLog(@"Saved data: %@",[array objectAtIndex:0]);
+		NSLog(@"Saved data: %@",array[0]);
 	}
-	[array release];
 }
 
 
@@ -118,7 +114,6 @@
 	if (appDelegate.remoteHostStatus == NotReachable) {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"No Internet Connection" message:@"You don't have a valid internet connection.  Try again later." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 		[alert show];
-		[alert release];
 	} else {
 		if (appDelegate.url==NULL){
 			NSLog(@"It was NULL");
@@ -185,7 +180,7 @@
 	
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:TopLevelCellIdentifier];
 	if (cell == nil) {
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:TopLevelCellIdentifier] autorelease];
+		cell = [[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:TopLevelCellIdentifier];
 	}
 	// Configure the cell
 	//NSUInteger row = [indexPath row];
@@ -195,11 +190,11 @@
 	
 	//Atom *aAtom = [appDelegate.entries objectAtIndex:indexPath.row];  //HERE IS WHERE THE VALUES GET LOADED IN AND I CAN USE THEM (from appDelegate)
 	if (appDelegate.globalFeedType == RSS_FEED) {
-		RSS *aRSS = [appDelegate.entries objectAtIndex:indexPath.row];
+		RSS *aRSS = (appDelegate.entries)[indexPath.row];
 		//cell.text = aListing.name;
 		[cell.textLabel setText:[NSString stringWithFormat:@"%@", aRSS.title]];
 	} else if (appDelegate.globalFeedType == ATOM_FEED) {
-		Atom *aAtom = [appDelegate.entries objectAtIndex:indexPath.row];
+		Atom *aAtom = (appDelegate.entries)[indexPath.row];
 		[cell.textLabel setText:[NSString stringWithFormat:@"%@", aAtom.title]];
 	}
 	
@@ -216,11 +211,10 @@
 		if ([[NSFileManager defaultManager] fileExistsAtPath:filePath])
 		{
 			NSMutableArray *array = [[NSMutableArray alloc] initWithContentsOfFile:filePath];
-			if([array objectAtIndex:0] != NULL){
-				appDelegate.url = [NSURL URLWithString:[array objectAtIndex:0]];
+			if(array[0] != NULL){
+				appDelegate.url = [NSURL URLWithString:array[0]];
 				NSLog(@"Just found some persistent data: %@", appDelegate.url);
 			}
-			[array release];
 		} else {
 			NSLog(@"file not found.");
 		}
@@ -248,11 +242,10 @@
 		if ([[NSFileManager defaultManager] fileExistsAtPath:filePath])
 		{
 			NSMutableArray *array = [[NSMutableArray alloc] initWithContentsOfFile:filePath];
-			if([array objectAtIndex:0] != NULL){
-				appDelegate.url = [NSURL URLWithString:[array objectAtIndex:0]];
+			if(array[0] != NULL){
+				appDelegate.url = [NSURL URLWithString:array[0]];
 				NSLog(@"Just found some persistent data: %@", appDelegate.url);
 			}
-			[array release];
 		} else {
 			NSLog(@"file not found.");
 		}
@@ -268,7 +261,6 @@
 	if (appDelegate.remoteHostStatus == NotReachable) {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"No Internet Connection" message:@"You don't have a valid internet connection.  Try again later." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 		[alert show];
-		[alert release];
 	} else {
 		if (appDelegate.url==NULL){
 			NSLog(@"It was NULL");
@@ -295,7 +287,7 @@
 //	NSUInteger row = [indexPath row];
 	DetailViewController *detailViewController = [[DetailViewController alloc] init];// self.detailViewController;
 	if (appDelegate.globalFeedType == RSS_FEED) {
-		RSS *aRSS = [appDelegate.entries objectAtIndex:indexPath.row];
+		RSS *aRSS = (appDelegate.entries)[indexPath.row];
 		//NSLog(aRSS.description);
 		detailViewController.title = aRSS.title;
 		detailViewController.storeText = aRSS.description;
@@ -306,7 +298,7 @@
 		//detailViewController.textView.text = aRSS.description;//[NSString stringWithFormat:@"%@", aRSS.title];
 		//NSLog(detailViewController.textView.text);
 	} else if (appDelegate.globalFeedType == ATOM_FEED) {
-		Atom *aAtom = [appDelegate.entries objectAtIndex:indexPath.row];
+		Atom *aAtom = (appDelegate.entries)[indexPath.row];
 		detailViewController.title = aAtom.title;
 		if ([aAtom.entrySummary isEqualToString:@""])
 			detailViewController.storeText = aAtom.entrySummary;
@@ -326,10 +318,10 @@
 #pragma mark MULTI_THREAD
 
 -(void)beginBackgroundTasks{
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	@autoreleasepool {
     //[NSThread sleepForTimeInterval:.3];
-    [self performSelector:@selector(loadURLAndParse) withObject:nil]; //spawn process as a separate, non-main thread
-    [pool release];
+        [self performSelector:@selector(loadURLAndParse) withObject:nil]; //spawn process as a separate, non-main thread
+    }
 }
 
 
@@ -338,7 +330,7 @@
 	//NSData *data = [[NSData alloc] initWithContentsOfFile:path];
 	NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithContentsOfURL:appDelegate.url];
 	//NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithData:data];
-	[appDelegate.url retain];
+	appDelegate.url;
 	
 	//Initialize the delegate.
 	XMLParser *parser = [[XMLParser alloc] initXMLParser];
@@ -349,7 +341,6 @@
 	//Start parsing the XML file.
 	BOOL success = [xmlParser parse];
 	appDelegate.globalFeedType = parser.typeOfFeed;
-	[xmlParser release];
 	if(success)
 		NSLog(@"No Errors");
 	else {
@@ -360,13 +351,11 @@
 											  cancelButtonTitle:@"OK" 
 											  otherButtonTitles:nil];
 		[alert show];
-		[alert release];
 		if (!(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad))
 		{
 			configurationController = [[ConfigurationController alloc] initWithNibName: @"ConfigurationController" bundle: nil];
 			iRSSAppDelegate *delegate = [[UIApplication sharedApplication] delegate]; //delegate];
 			[delegate.navigationController pushViewController:configurationController animated:YES];
-			[configurationController release];
 		}
 	}
 	
@@ -378,9 +367,7 @@
 
 - (void)dealloc {
 	NSLog(@"begin dealloc");
-	[popoverController release];
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
-    [super dealloc];
 	NSLog(@"end dealloc");
 }
 

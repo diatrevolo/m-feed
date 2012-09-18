@@ -42,10 +42,10 @@
 	//HTMLparser *htmlParse = [[HTMLparser alloc] init];
 	NSLog(@"Link is %@", url);
 	webViewController = [[WebViewController alloc] init];
-	UIBarButtonItem *addButton = [[[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Web View", @"")
+	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Web View", @"")
 																   style:UIBarButtonItemStyleBordered
 																  target:self
-																  action:@selector(addAction:)] autorelease];
+																  action:@selector(addAction:)];
 	self.navigationItem.rightBarButtonItem = addButton;
 	textView.text = [self flattenHTML:self.storeText];
 	//textView.text = [[[NSString alloc] init] flattenHTML:self.storeText];
@@ -116,12 +116,6 @@
 }
 
 
-- (void)dealloc {
-	[textView release];
-	[storeText release];
-	[url release];
-    [super dealloc];
-}
 
 
 @end

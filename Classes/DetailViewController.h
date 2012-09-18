@@ -21,11 +21,11 @@
 	//iRSSAppDelegate *appDelegate;
 }
 
-@property (nonatomic, retain) IBOutlet UITextView *textView;
-@property (nonatomic, retain) NSString *storeText;
+@property (nonatomic, strong) IBOutlet UITextView *textView;
+@property (nonatomic, strong) NSString *storeText;
 //@property (nonatomic, retain) RSS *tempRSS;
-@property (nonatomic, retain) WebViewController *webViewController;
-@property (nonatomic, retain) NSString *url;
+@property (nonatomic, strong) WebViewController *webViewController;
+@property (nonatomic, strong) NSString *url;
 //@property (nonatomic, retain) iRSSAppDelegate *delegate;
 
 @end
