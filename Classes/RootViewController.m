@@ -292,6 +292,7 @@
 		//NSLog(aRSS.description);
 		detailViewController.title = aRSS.title;
 		detailViewController.storeText = aRSS.description;
+        [detailViewController.view setBackgroundColor:[UIColor whiteColor]];
 		detailViewController.url = [aRSS.link stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];  //HERE IS THE LOAD OF THE URL
 		[aRSS.link stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 		
