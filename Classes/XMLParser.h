@@ -28,6 +28,6 @@
 
 @property NSInteger typeOfFeed;
 
-- (XMLParser *) initXMLParser;
+- (XMLParser *) initXMLParser NS_DESIGNATED_INITIALIZER;
 
 @end

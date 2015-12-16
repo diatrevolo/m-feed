@@ -27,7 +27,7 @@
 @property (nonatomic, strong) UIPopoverController *popoverController;
 @property BOOL configControllerShowing;
 
-- (NSString *)dataFilePath;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSString *dataFilePath;
 - (void)applicationWillTerminate:(NSNotification *)notification;
 
 @end

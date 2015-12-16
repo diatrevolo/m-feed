@@ -24,7 +24,7 @@
 }
 */
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
 		// Initialization code
 		//iRSSAppDelegate *delegate = [[UIApplication sharedApplication] delegate]; //delegate];
@@ -62,7 +62,7 @@
 	
     theScanner = [NSScanner scannerWithString:html];
 	
-    while ([theScanner isAtEnd] == NO) {
+    while (theScanner.atEnd == NO) {
 		
         // find start of tag
         [theScanner scanUpToString:@"<" intoString:NULL] ; 
@@ -86,7 +86,7 @@
 {
 	//NSLog(@"%@", self.tempRSS);
 	webViewController.urlString = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
-	iRSSAppDelegate *delegate = [[UIApplication sharedApplication] delegate]; //delegate];
+	iRSSAppDelegate *delegate = [UIApplication sharedApplication].delegate; //delegate];
 	[delegate.navigationController pushViewController:webViewController animated:YES];
 }
 

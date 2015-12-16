@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
 	configControllerShowing = false;
-	appDelegate = (iRSSAppDelegate *)[[UIApplication sharedApplication] delegate];
+	appDelegate = (iRSSAppDelegate *)[UIApplication sharedApplication].delegate;
 	self.title = @"m-feed";
 	UIBarButtonItem *setupButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Configure", @"")
 																   style:UIBarButtonItemStyleBordered
@@ -46,7 +46,7 @@
 {
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 	{
-		if(![self.popoverController isPopoverVisible]){//need to add feed check on back in iPad
+		if(!(self.popoverController).popoverVisible){//need to add feed check on back in iPad
 			// The device is an iPad running iPhone 3.2 or later.
 			configurationController = [[ConfigurationController alloc] initWithNibName: @"ConfigurationController" bundle: nil];
 			//iRSSAppDelegate *delegate = [[UIApplication sharedApplication] delegate]; //delegate];
@@ -67,7 +67,7 @@
 			self.popoverController = aPopover;
 			
 			
-			[self.popoverController setPopoverContentSize:CGSizeMake(320, 460)];
+			(self.popoverController).popoverContentSize = CGSizeMake(320, 460);
 			
 			[self.popoverController presentPopoverFromBarButtonItem:sender
 									   permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
@@ -81,7 +81,7 @@
 		//NSLog(@"%@", self.tempRSS);
 		//configurationController.urlString = [NSURLRequest requestWithURL:[NSURL URLWithString:self.url]];
 		configurationController = [[ConfigurationController alloc] initWithNibName: @"ConfigurationController" bundle: nil];
-		iRSSAppDelegate *delegate = [[UIApplication sharedApplication] delegate]; //delegate];
+		iRSSAppDelegate *delegate = [UIApplication sharedApplication].delegate; //delegate];
 		[delegate.navigationController pushViewController:configurationController animated:YES];
 	}
 }
@@ -97,7 +97,7 @@
 	NSLog(@"m-feed is going south.");
 	[[NSFileManager defaultManager] createFileAtPath:[self dataFilePath] contents:nil attributes:nil];
 	NSMutableArray *array = [[NSMutableArray alloc] init];
-	[array addObject:[appDelegate.url absoluteString]];
+	[array addObject:(appDelegate.url).absoluteString];
 	[array writeToFile:[self dataFilePath] atomically:YES];
 	if ([[NSFileManager defaultManager] fileExistsAtPath:[self dataFilePath]]){
 		NSLog(@"Saved data: %@",array[0]);
@@ -106,7 +106,7 @@
 
 
 - (void)viewDidAppear:(BOOL)animated {
-	[[Reachability sharedReachability] setHostName:@"www.apple.com"];
+	[Reachability sharedReachability].hostName = @"www.apple.com";
 	[appDelegate updateStatus];
 	
 	NSLog(@"Loaded RootViewController");
@@ -172,7 +172,7 @@
 #pragma mark -
 #pragma mark Table Data Source Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return [appDelegate.entries count];
+	return (appDelegate.entries).count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -193,10 +193,10 @@
 	if (appDelegate.globalFeedType == RSS_FEED) {
 		RSS *aRSS = (appDelegate.entries)[indexPath.row];
 		//cell.text = aListing.name;
-		[cell.textLabel setText:[[NSString stringWithFormat:@"%@", aRSS.title] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]];
+		(cell.textLabel).text = [[NSString stringWithFormat:@"%@", aRSS.title] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 	} else if (appDelegate.globalFeedType == ATOM_FEED) {
 		Atom *aAtom = (appDelegate.entries)[indexPath.row];
-		[cell.textLabel setText:[NSString stringWithFormat:@"%@", aAtom.title]];
+		(cell.textLabel).text = [NSString stringWithFormat:@"%@", aAtom.title];
 	}
 	
 	//cell.image = controller.rowImage;
@@ -254,7 +254,7 @@
 	NSLog(@"Loading Feeds View");
 	
 	////
-	[[Reachability sharedReachability] setHostName:@"www.apple.com"];
+	[Reachability sharedReachability].hostName = @"www.apple.com";
 	[appDelegate updateStatus];
 	
 	NSLog(@"Loaded RootViewController");
@@ -292,7 +292,7 @@
 		//NSLog(aRSS.description);
 		detailViewController.title = aRSS.title;
 		detailViewController.storeText = aRSS.description;
-        [detailViewController.view setBackgroundColor:[UIColor whiteColor]];
+        (detailViewController.view).backgroundColor = [UIColor whiteColor];
 		detailViewController.url = [aRSS.link stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];  //HERE IS THE LOAD OF THE URL
 		[aRSS.link stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 		
@@ -308,7 +308,7 @@
 			detailViewController.storeText = aAtom.content;
 	}
 	
-	iRSSAppDelegate *delegate = [[UIApplication sharedApplication] delegate]; //delegate];
+	iRSSAppDelegate *delegate = [UIApplication sharedApplication].delegate; //delegate];
 	[delegate.navigationController pushViewController:detailViewController animated:YES];
 }
 
@@ -338,7 +338,7 @@
 	XMLParser *parser = [[XMLParser alloc] initXMLParser];
 	
 	//Set delegate
-	[xmlParser setDelegate:parser];
+	xmlParser.delegate = parser;
 	
 	//Start parsing the XML file.
 	BOOL success = [xmlParser parse];
@@ -356,13 +356,13 @@
 		if (!(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad))
 		{
 			configurationController = [[ConfigurationController alloc] initWithNibName: @"ConfigurationController" bundle: nil];
-			iRSSAppDelegate *delegate = [[UIApplication sharedApplication] delegate]; //delegate];
+			iRSSAppDelegate *delegate = [UIApplication sharedApplication].delegate; //delegate];
 			[delegate.navigationController pushViewController:configurationController animated:YES];
 		}
 	}
 	
-	if([self tableView])
-		[[self tableView] reloadData];
+	if(self.tableView)
+		[self.tableView reloadData];
 }
 
 #pragma mark DEALLOC

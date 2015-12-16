@@ -65,11 +65,11 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
  An enumeration that defines the return values of the network state
  of the device.
  */
-typedef enum {
+typedef NS_ENUM(unsigned int, NetworkStatus) {
 	NotReachable = 0,
 	ReachableViaCarrierDataNetwork,
 	ReachableViaWiFiNetwork
-} NetworkStatus;
+};
 
 
 // Set to YES to register for changes in network status. Otherwise reachability queries
@@ -89,11 +89,11 @@ typedef enum {
 
 // Is self.hostName is not nil, determines its reachability.
 // If self.hostName is nil and self.address is not nil, determines the reachability of self.address.
-- (NetworkStatus)remoteHostStatus;
+@property (NS_NONATOMIC_IOSONLY, readonly) NetworkStatus remoteHostStatus;
 // Is the device able to communicate with Internet hosts? If so, through which network interface?
-- (NetworkStatus)internetConnectionStatus;
+@property (NS_NONATOMIC_IOSONLY, readonly) NetworkStatus internetConnectionStatus;
 // Is the device able to communicate with hosts on the local WiFi network? (Typically these are Bonjour hosts).
-- (NetworkStatus)localWiFiConnectionStatus;
+@property (NS_NONATOMIC_IOSONLY, readonly) NetworkStatus localWiFiConnectionStatus;
 
 /*
  When reachability change notifications are posted, the callback method 'ReachabilityCallback' is called

@@ -11,7 +11,7 @@
 #import "XMLParser.h"
 
 @interface iRSSAppDelegate()
-- (NSString *)hostName;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSString *hostName;
 @end
 
 @implementation iRSSAppDelegate

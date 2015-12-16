@@ -80,7 +80,7 @@
 						if((xmlStrcasecmp(xmlGetProp(node, (const xmlChar*)"type"), (const xmlChar*)"application/rss+xml") == 0)||(xmlStrcasecmp(xmlGetProp(node, (const xmlChar*)"type"), (const xmlChar*)"application/atom+xml") == 0)){
 							//feedLink = xmlGetProp(node, (const xmlChar*)"href");
 							printf("Found an RSS feed: %s\n", feedLink);
-							[appDelegate setUrl:[[NSURL alloc] initWithString:[NSString stringWithCString:feedLink]]];
+							appDelegate.url = [[NSURL alloc] initWithString:[NSString stringWithCString:feedLink]];
 							
 							xmlFree(feedLink);
 							//msg = (char *) malloc(sizeof((char*)feedLink));
@@ -139,7 +139,7 @@
 
 	//htmlTag
 	/////////////
-	appDelegate = (iRSSAppDelegate *)[[UIApplication sharedApplication] delegate];
+	appDelegate = (iRSSAppDelegate *)[UIApplication sharedApplication].delegate;
 	self.title = @"Configuration";
     [super viewDidLoad];
 }
@@ -150,7 +150,7 @@
 	NSURL *quickURL = [[NSURL alloc] initWithString:textField.text];
 	NSData *xmlData = [NSData dataWithContentsOfURL:quickURL];
 	//NSLog(@"%@", [xmlData bytes]);
-	xmlDocPtr reader = xmlReadDoc([xmlData bytes], nil, [path UTF8String], (XML_PARSE_NOBLANKS|XML_PARSE_RECOVER|XML_PARSE_NOERROR));
+	xmlDocPtr reader = xmlReadDoc(xmlData.bytes, nil, path.UTF8String, (XML_PARSE_NOBLANKS|XML_PARSE_RECOVER|XML_PARSE_NOERROR));
 	//htmlDocPtr reader =  htmlReadDoc([xmlData bytes], nil, [path UTF8String], 
 	//								 (HTML_PARSE_NOBLANKS | HTML_PARSE_NOERROR | HTML_PARSE_RECOVER));
 	if (!reader) {

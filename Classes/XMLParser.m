@@ -24,7 +24,7 @@
 	
 	if (!(self = [super init])) return nil;
 	
-	appDelegate = (iRSSAppDelegate *)[[UIApplication sharedApplication] delegate];
+	appDelegate = (iRSSAppDelegate *)[UIApplication sharedApplication].delegate;
 	
 	return self;
 }

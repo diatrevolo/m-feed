@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
 	
 	
-	appDelegate = (iRSSAppDelegate *)[[UIApplication sharedApplication] delegate];
+	appDelegate = (iRSSAppDelegate *)[UIApplication sharedApplication].delegate;
 	self.title = @"m-feed";
 	
     [super viewDidLoad];
@@ -81,7 +81,7 @@
 #pragma mark -
 #pragma mark Table Data Source Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return [appDelegate.entries count];
+	return (appDelegate.entries).count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -109,7 +109,7 @@
 	
 	
 	//cell.text = [NSString stringWithFormat:@"%@", aAtom.title];
-	[cell.textLabel setText:[NSString stringWithFormat:@"%@", aRSS.title]];
+	(cell.textLabel).text = [NSString stringWithFormat:@"%@", aRSS.title];
 	
 	//cell.image = controller.rowImage;
 	

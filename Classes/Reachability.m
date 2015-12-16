@@ -124,12 +124,12 @@ static Reachability *_sharedReachability;
 // Returns whether or not the current host name is reachable with the current network configuration.
 - (BOOL)isHostReachable:(NSString *)host
 {
-    if (!host || ![host length]) {
+    if (!host || !host.length) {
         return NO;
     }
     
     SCNetworkReachabilityFlags		flags;
-    SCNetworkReachabilityRef reachability =  SCNetworkReachabilityCreateWithName(NULL, [host UTF8String]);
+    SCNetworkReachabilityRef reachability =  SCNetworkReachabilityCreateWithName(NULL, host.UTF8String);
 	BOOL gotFlags = SCNetworkReachabilityGetFlags(reachability, &flags);
     
 	CFRelease(reachability);
@@ -285,7 +285,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
  */
 - (SCNetworkReachabilityRef)reachabilityRefForHostName:(NSString *)hostName
 {
-	if (!hostName || ![hostName length]) {
+	if (!hostName || !hostName.length) {
 		return NULL;
 	}
 	
@@ -298,7 +298,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 	}
 	
 	// Didn't find an existing SCNetworkReachabilityRef for hostName, so create one ...
-	reachabilityRefForHostName = SCNetworkReachabilityCreateWithName(kCFAllocatorDefault, [hostName UTF8String]);
+	reachabilityRefForHostName = SCNetworkReachabilityCreateWithName(kCFAllocatorDefault, hostName.UTF8String);
     
     NSAssert1(reachabilityRefForHostName != NULL, @"Failed to create SCNetworkReachabilityRef for host: %@", hostName);
     
@@ -326,7 +326,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
  */
 - (SCNetworkReachabilityRef)reachabilityRefForAddress:(NSString *)addressString
 {
-	if (!addressString || ![addressString length]) {
+	if (!addressString || !addressString.length) {
 		return NULL;
 	}
 	
@@ -474,7 +474,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 // the reachability request.
 - (BOOL)addressFromString:(NSString *)IPAddress address:(struct sockaddr_in *)address
 {
-	if (!IPAddress || ![IPAddress length]) {
+	if (!IPAddress || !IPAddress.length) {
 		return NO;
 	}
 	
@@ -482,7 +482,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 	address->sin_family = AF_INET;
 	address->sin_len = sizeof(struct sockaddr_in);
 	
-	int conversionResult = inet_aton([IPAddress UTF8String], &address->sin_addr);
+	int conversionResult = inet_aton(IPAddress.UTF8String, &address->sin_addr);
 	if (conversionResult == 0) {
 		NSAssert1(conversionResult != 1, @"Failed to convert the IP address string into a sockaddr_in: %@", IPAddress);
 		return NO;
@@ -503,7 +503,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 @synthesize runLoops = _runLoops;
 @synthesize hostNameOrAddress = _hostNameOrAddress;
 
-- (id)init
+- (instancetype)init
 {
 	self = [super init];
 	if (self != nil) {
@@ -536,7 +536,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReach
 - (void)scheduleOnRunLoop:(NSRunLoop *)inRunLoop
 {
 	// Only register for network state changes if the client has specifically enabled them.
-	if ([[Reachability sharedReachability] networkStatusNotificationsEnabled] == NO) {
+	if ([Reachability sharedReachability].networkStatusNotificationsEnabled == NO) {
 		return;
 	}
 	
