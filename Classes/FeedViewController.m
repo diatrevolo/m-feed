@@ -88,9 +88,10 @@
 	static NSString *TopLevelCellIdentifier = @"TopLevelCellIdentifier";
 	
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:TopLevelCellIdentifier];
-	if (cell == nil) {
-		cell = [[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:TopLevelCellIdentifier];
-	}
+//	if (cell == nil) {
+//		cell = [[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:TopLevelCellIdentifier];
+//        cell = [UITabl]
+//	}
 	// Configure the cell
 	//NSUInteger row = [indexPath row];
 	//RootViewController *controller = [appDelegate.entries objectAtIndex:row];

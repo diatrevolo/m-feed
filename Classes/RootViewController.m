@@ -180,7 +180,7 @@
 	
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:TopLevelCellIdentifier];
 	if (cell == nil) {
-		cell = [[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:TopLevelCellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:TopLevelCellIdentifier];
 	}
 	// Configure the cell
 	//NSUInteger row = [indexPath row];
@@ -192,7 +192,7 @@
 	if (appDelegate.globalFeedType == RSS_FEED) {
 		RSS *aRSS = (appDelegate.entries)[indexPath.row];
 		//cell.text = aListing.name;
-		[cell.textLabel setText:[NSString stringWithFormat:@"%@", aRSS.title]];
+		[cell.textLabel setText:[[NSString stringWithFormat:@"%@", aRSS.title] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]];
 	} else if (appDelegate.globalFeedType == ATOM_FEED) {
 		Atom *aAtom = (appDelegate.entries)[indexPath.row];
 		[cell.textLabel setText:[NSString stringWithFormat:@"%@", aAtom.title]];
