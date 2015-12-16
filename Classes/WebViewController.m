@@ -41,6 +41,7 @@
 	//Load the request in the UIWebView.
 	NSLog(@"Loading %@", urlString);
 	[webView loadRequest:urlString];
+    [super viewDidLoad];
 }
 
 

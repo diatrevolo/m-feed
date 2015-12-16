@@ -74,6 +74,7 @@
 - (void)viewDidUnload {
 	// Release anything that can be recreated in viewDidLoad or on demand.
 	// e.g. self.myOutlet = nil;
+    [super viewDidUnload];
 }
 
 

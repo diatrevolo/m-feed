@@ -89,14 +89,13 @@ static Reachability *_sharedReachability;
 		_sharedReachability.networkStatusNotificationsEnabled = NO;
 		_sharedReachability.reachabilityQueries = [[NSMutableDictionary alloc] init];
 	}
-	return _sharedReachability;
+    return _sharedReachability;
 }
 
 - (void) dealloc
 {	
     [self stopListeningForReachabilityChanges];
     
-	[_sharedReachability.reachabilityQueries release];
 	[_sharedReachability release];
 	[super dealloc];
 }
